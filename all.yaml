@@ -25,7 +25,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: ghcr.io/argocon2022-workshop/demo-app:latest
+      - image: ghcr.io/abaehremc/demo-app:793c08e2b583d2939040ee0ed82011fd5537afb0
         name: demo-app
         ports:
         - containerPort: 8080
